@@ -1,0 +1,64 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Environment & secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Coverage reports
+/coverage/
+jacoco.exec
+
+# Node/npm (if frontend is embedded)
+node_modules/
+dist/
+build/
+
+# Spring-specific
+spring.log
+
+# Test reports
+/test-output/
+.surefire-*
+
+# Others
+*.orig
