@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 
 @Configuration
 public class VirtualThreadExecutorConfig {
-
+    // This configuration class defines a bean for a virtual thread executor
     @Bean(name = "virtualThreadExecutor")
     public Executor virtualThreadExecutor() {
         return Executors.newVirtualThreadPerTaskExecutor();

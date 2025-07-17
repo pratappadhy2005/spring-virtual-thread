@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Customer {
+    // Assuming the ID is auto-generated
     @Id
     private Long id;
 
